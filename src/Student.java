@@ -10,7 +10,7 @@ public class Student {
     }
 
     public String toString() {
-        return "Student info " + gpa + " " + studentID;
+        return "Student info " + gpa + " " + studentID + " " + school;
     }
 
     public void setGpa(double newGpa) {
