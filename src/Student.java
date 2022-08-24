@@ -10,6 +10,14 @@ public class Student {
     }
 
     public String toString() {
-        return "Student info" + gpa + " " + studentID;
+        return "Student info " + gpa + " " + studentID;
+    }
+
+    public void setGpa(double newGpa) {
+        gpa = newGpa;
+    }
+
+    public double getGpa() {
+        return gpa;
     }
 }
