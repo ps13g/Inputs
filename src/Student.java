@@ -10,6 +10,6 @@ public class Student {
     }
 
     public String toString() {
-        return "Student info";
+        return "Student info" + gpa + " " + studentID;
     }
 }
