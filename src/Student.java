@@ -1,6 +1,7 @@
 public class Student {
-    public static void main(String[] args) {
-
-
+    public class Student {
+    private double gpa;
+    private int studentID;
+    private String school;
     }
 }
