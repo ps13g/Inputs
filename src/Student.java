@@ -8,4 +8,8 @@ public class Student {
         studentID = idParam;
         school = schoolParam;
     }
+
+    public String toString() {
+        return "Student info";
+    }
 }
